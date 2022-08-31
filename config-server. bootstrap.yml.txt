@@ -12,9 +12,10 @@ spring:
         git:
           uri: https://github.com/VicenteCanteroLuna/Microservicios.git
           searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          username: "Vicente Cantero Luna"
+          password: "KfcFd2y5"
           default-label: "master"
+      bootstrap: true
   security:
     user:
       name: root
