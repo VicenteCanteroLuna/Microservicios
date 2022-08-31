@@ -1,5 +1,7 @@
 #https://www.youtube.com/watch?v=ydtswONk9TE&list=PLxy6jHplP3Hi_W8iuYSbAeeMfaTZt49PW&index=12
 
+#http://root:s3cr3t@localhost:8081/product-service/default
+
 server:
   port: 8081
 
@@ -8,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/VicenteCanteroLuna/Microservicios
+          uri: https://github.com/VicenteCanteroLuna/Microservicios.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
