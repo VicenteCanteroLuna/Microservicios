@@ -7,11 +7,13 @@ import com.bosonit.servicescustomer.repository.RegionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import javax.annotation.PostConstruct;
 import java.util.Date;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class ServicesCustomerApplication {
 
 	@Autowired
